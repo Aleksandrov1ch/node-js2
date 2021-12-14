@@ -20,4 +20,4 @@ app.use('/menus', menuRouter);
 app.use('/dishes', dishRouter);
 app.use('/categories', categoryRouter);
 
-export default app;
+export default app
