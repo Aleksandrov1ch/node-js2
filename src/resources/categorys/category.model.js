@@ -12,8 +12,9 @@ class Category {
         this.title = title;
         this.photo = photo;
         this.isVisible = isVisible;
-        const { id, title, photo, isVisible} = category;
-        return { id, title, photo, isVisible};
+    }
+
+    static toResponse(category) {
         const { id, menuId, title, photo, isVisible} = category;
         return { id, menuId, title, photo, isVisible};
     }
