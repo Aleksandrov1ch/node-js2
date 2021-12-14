@@ -9,4 +9,4 @@ app.listen(PORT, () =>
 );
 
 process.on('uncaughtException', uncaughtException());
-process.on('unhandledRejection', unhandledRejection())
+process.on('unhandledRejection', unhandledRejection());

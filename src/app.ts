@@ -26,4 +26,4 @@ app.use('/categories', categoryRouter);
 
 app.use(errorHandler)
 
-export default app
+export default app;
