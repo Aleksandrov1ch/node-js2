@@ -12,4 +12,4 @@ const catchErrors = (fn: Function) => async (
   }
 };
 
-export default catchErrors;
+export default catchErrors

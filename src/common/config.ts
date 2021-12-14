@@ -16,4 +16,4 @@ const config = {
   AUTH_MODE: AUTH_MODE === 'true',
 };
 
-export default config;
+export default config
