@@ -20,3 +20,5 @@ app.use('/dishes', dishRouter);
 app.use('/categories', categoryRouter);
 
 module.exports = app;
+//© 2021 GitHub, Inc.
+//Terms
